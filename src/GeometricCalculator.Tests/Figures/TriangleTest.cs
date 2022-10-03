@@ -1,4 +1,4 @@
-﻿namespace PerimeterCalculation.Tests.Figures;
+﻿namespace GeometricCalculator.Tests.Figures;
 
 [TestClass]
 public class TriangleTest

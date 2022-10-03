@@ -1,2 +1,2 @@
 global using Microsoft.VisualStudio.TestTools.UnitTesting;
-global using PerimeterCalculation.Figures;
+global using GeometricCalculator.Figures;

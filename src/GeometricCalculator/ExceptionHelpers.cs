@@ -1,4 +1,4 @@
-﻿namespace PerimeterCalculation;
+﻿namespace GeometricCalculator;
 
 internal static class ExceptionHelpers
 {

@@ -1,4 +1,4 @@
-﻿namespace PerimeterCalculation.Figures;
+﻿namespace GeometricCalculator.Figures;
 
 /// <summary>
 /// Geometric figure triangle
