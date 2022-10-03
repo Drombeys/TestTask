@@ -11,4 +11,8 @@
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PerimeterCalculation\PerimeterCalculation.csproj" />
+  </ItemGroup>
+
 </Project>
