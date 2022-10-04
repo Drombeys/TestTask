@@ -1,4 +1,4 @@
-USE master;
+﻿USE master;
 GO;
 
 IF DB_ID (N'Shop') IS NOT NULL
@@ -75,3 +75,14 @@ VALUES
     (6, 5);
 GO;
 
+-- Вариант 1
+SELECT (P.Name + ' - ' + ISNULL(C.Name, N'Без категории')) AS 'Product - Category'
+FROM Products AS P
+    LEFT JOIN Categories_Products AS CP ON P.Id_product = CP.Id_product
+    LEFT JOIN Categories C on C.Id_сategory = CP.Id_сategory;
+
+-- Вариант 2
+SELECT (P.Name + ISNULL(' - ' + C.Name, '')) AS 'Product - Category'
+FROM Products AS P
+    LEFT JOIN Categories_Products AS CP ON P.Id_product = CP.Id_product
+    LEFT JOIN Categories C on C.Id_сategory = CP.Id_сategory;
