@@ -14,6 +14,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometricCalculator", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometricCalculator.Tests", "src\GeometricCalculator.Tests\GeometricCalculator.Tests.csproj", "{23B817F7-3C48-4B6F-8133-B2C035C60EB4}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Shop.Queries", "src\Shop.Queries\Shop.Queries.sqlproj", "{D93A4352-CFB4-44E5-98DD-19FE1492CF5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,12 @@ Global
 		{23B817F7-3C48-4B6F-8133-B2C035C60EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23B817F7-3C48-4B6F-8133-B2C035C60EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23B817F7-3C48-4B6F-8133-B2C035C60EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93A4352-CFB4-44E5-98DD-19FE1492CF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93A4352-CFB4-44E5-98DD-19FE1492CF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93A4352-CFB4-44E5-98DD-19FE1492CF5B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D93A4352-CFB4-44E5-98DD-19FE1492CF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93A4352-CFB4-44E5-98DD-19FE1492CF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93A4352-CFB4-44E5-98DD-19FE1492CF5B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
